@@ -1,21 +1,14 @@
 {
     "name": "gxa/code-tool",
-    "description": "Some of the code tools you use",
+    "description": "单例模式",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "gxa",
+            "name": "Hunter",
             "email": "1017977286@qq.com"
         }
     ],
-    "require": {
-		"php": ">=7.0",
-        "another-vendor/package": "1.*"
-		},
-    "autoload": {
-        "psr-4": {
-           "Cxx\\Codetool\\": "src/"
-        }
-    }
+    "minimum-stability": "stable",
+    "require": {}
 }
